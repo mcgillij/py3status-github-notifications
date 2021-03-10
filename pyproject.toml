@@ -1,8 +1,27 @@
 [tool.poetry]
 name = "py3status-github-notifications"
 version = "0.1.0"
-description = ""
+description = "py3status module to show your Github notifications"
 authors = ["mcgillij <mcgillivray.jason@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/mcgillij/py3status-github-notifications"
+repository = "https://github.com/mcgillij/py3status-github-notifications"
+documentation = "https://github.com/mcgillij/py3status-github-notifications"
+keywords = ["github", "notifications", "py3status", "i3", "git"]
+include = [ "LICENSE", ]
+
+classifiers = [
+    "Environment :: X11 Applications",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Desktop Environment :: Window Managers",
+    "Topic :: System :: Monitoring",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+
+[tool.poetry.plugins."py3status"]
+module = "py3status_github_notifications.github_notifications"
 
 [tool.poetry.dependencies]
 python = "^3.9"
