@@ -3,6 +3,7 @@ py3status module for showing your Github notifications in i3
 
 ## Screenshot
 ![Status Bar with py3status-github-notifications](https://raw.githubusercontent.com/mcgillij/py3status-github-notifications/main/images/github_notifications.png)
+![Status Bar with py3status-github-notifications red](https://raw.githubusercontent.com/mcgillij/py3status-github-notifications/main/images/notifications_red.png)
 ## Prerequisites
 
 * [i3wm](https://i3wm.org/)
