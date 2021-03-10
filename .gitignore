@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# arch stuff
+temp/
+*.zst
+*.tar.gz
+
 # Distribution / packaging
 .Python
 build/
