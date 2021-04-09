@@ -1,6 +1,8 @@
 # py3status-github-notifications
 py3status module for showing your Github notifications in i3
 
+[![Downloads](https://static.pepy.tech/personalized-badge/py3status-github-notifications?period=total&units=international_system&left_color=blue&right_color=green&left_text=Downloads)](https://pepy.tech/project/py3status-github-notifications)
+
 ## Screenshot
 ![Status Bar with py3status-github-notifications](https://raw.githubusercontent.com/mcgillij/py3status-github-notifications/main/images/github_notifications.png)
 ![Status Bar with py3status-github-notifications red](https://raw.githubusercontent.com/mcgillij/py3status-github-notifications/main/images/notifications_red.png)
@@ -63,7 +65,7 @@ github_notifications {
 }
 ...
 
-``` 
+```
 And restart **i3** and your should be good to go.
 
 ## Configuration Options
