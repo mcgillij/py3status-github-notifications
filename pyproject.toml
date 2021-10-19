@@ -27,7 +27,7 @@ module = "py3status_github_notifications.github_notifications"
 python = "^3.9"
 PyGithub = "^1.55"
 py3status = "^3.36"
-PyJWT = "2.1.0"
+PyJWT = "2.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

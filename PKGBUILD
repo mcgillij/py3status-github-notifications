@@ -9,9 +9,9 @@ arch=('any')
 license=('MIT')
 makedepends=('python-setuptools' "python-dephell")
 url="https://github.com/mcgillij/py3status-github-notifications"
-#source=("https://github.com/mcgillij/py3status-github-notifications/releases/download/0.1.2/py3status-github-notifications-0.1.2.tar.gz")
-source=("py3status-github-notifications-0.1.2.tar.gz")
-md5sums=('ab135b2b9e69e33fa8b06fa6d1622f56')
+source=("https://github.com/mcgillij/py3status-github-notifications/releases/download/0.1.2/py3status-github-notifications-0.1.2.tar.gz")
+#source=("py3status-github-notifications-0.1.2.tar.gz")
+md5sums=('8533e53f01fe18595d71034829a9872c')
 
 prepare() {
   cd "$pkgname-$pkgver"
