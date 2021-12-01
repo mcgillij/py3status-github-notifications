@@ -48,6 +48,11 @@ pipenv install py3status-github-notifications
 poetry add py3status-github-notifications
 ```
 
+### With `yay`
+``` bash
+yay -S py3status-github-notifications
+```
+
 ## Configuration
 
 Once you have the module installed using whichever method you chose above, edit your py3status configuration and add the following options.
