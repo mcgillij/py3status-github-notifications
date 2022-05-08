@@ -7,7 +7,7 @@ from github import Github, GithubException
 
 class Py3status:
     cache_timeout = 300
-    format = ": {notifications}"
+    format = " {notifications}"
     gh_token = "put your token here"
 
     def _get_notifications(self):
