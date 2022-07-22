@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "py3status-github-notifications"
-version = "0.1.4"
+version = "0.1.5"
 description = "py3status module to show your Github notifications"
 authors = ["mcgillij <mcgillivray.jason@gmail.com>"]
 license = "MIT"
@@ -26,15 +26,14 @@ module = "py3status_github_notifications.github_notifications"
 [tool.poetry.dependencies]
 python = "^3.9 || ^3.10"
 PyGithub = "^1.55"
-py3status = "^3.36"
-PyJWT = "2.2.0"
+py3status = "^3.45"
+PyJWT = "2.4.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
-black = "^20.8b1"
-flake8 = "^3.8.4"
-pylint = "^2.7.2"
-neovim = "^0.3.1"
+pytest = "*"
+black = "*"
+flake8 = "*"
+pylint = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
