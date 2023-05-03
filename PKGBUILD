@@ -9,8 +9,7 @@ arch=('any')
 license=('MIT')
 makedepends=('python-build' 'python-poetry' 'python-installer' 'python-setuptools')
 url="https://github.com/mcgillij/py3status-github-notifications"
-source=("$poetryname-$pkgver.tar.gz")
-#source=("https://github.com/mcgillij/py3status-github-notifications/releases/download/$pkgver/$poetryname-$pkgver.tar.gz")
+source=("https://github.com/mcgillij/py3status-github-notifications/releases/download/$pkgver/$poetryname-$pkgver.tar.gz")
 md5sums=('f01657417439fe1ed96c2ffe1cbae4e0')
 
 build() {
