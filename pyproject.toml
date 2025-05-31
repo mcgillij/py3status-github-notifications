@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "py3status-github-notifications"
-version = "0.1.14"
+version = "0.1.15"
 description = "py3status module to show your Github notifications"
 authors = ["mcgillij <mcgillivray.jason@gmail.com>"]
 license = "MIT"
@@ -9,6 +9,9 @@ homepage = "https://github.com/mcgillij/py3status-github-notifications"
 repository = "https://github.com/mcgillij/py3status-github-notifications"
 documentation = "https://github.com/mcgillij/py3status-github-notifications"
 keywords = ["github", "notifications", "py3status", "i3", "git"]
+packages = [
+    { include = "py3status_github_notifications", from = "src" }
+]
 
 classifiers = [
     "Environment :: X11 Applications",
@@ -19,8 +22,16 @@ classifiers = [
     "Topic :: Software Development :: Version Control :: Git",
 ]
 
+#[tool.poetry.plugins."py3status"]
+#module = "py3status_github_notifications.github_notifications"
 [tool.poetry.plugins."py3status"]
-module = "py3status_github_notifications.github_notifications"
+github_notifications = "py3status_github_notifications.github_notifications"
+
+#[project]
+#name = "py3status-github-notifications"
+
+#[project.entry-points.py3status]
+#module = "py3status_github_notifications.github_notifications"
 
 [tool.poetry.dependencies]
 python = "^3.11 || ^3.12 || ^3.13"
@@ -28,7 +39,7 @@ PyGithub = "^2.00"
 py3status = "^3.45"
 PyJWT = "^2.8.0"
 
-[tool.poetry.dev-dependencies]
+[poetry.group.dev.dependencies]
 pytest = "*"
 black = "*"
 flake8 = "*"
